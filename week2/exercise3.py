@@ -3,14 +3,30 @@
 
 
 def is_odd(a_number):
-    """Return True if a_number is odd, and False if a_number is even.
+    x = float(a_number)
+    if x % 2 == 1:
+        return True
+    else:
+        return False
 
-    Look into modulo division using the '%' operator as one way of doing this.
-    """
-    pass
 
 
 def fix_it(moves=True, should_move=True):
+
+    x = moves
+    y = should_move
+    
+    if y = True
+        if x = True
+            return "No Problem"
+        else 
+            return "WD-40"
+    else
+        if y = False
+            if x = True
+                return 
+
+
     """Decide what to do.
 
     Using the engineering flowchart (in week2 folder engineeringFlowchart.png)
@@ -25,17 +41,22 @@ def fix_it(moves=True, should_move=True):
 
 
 def loops_1a():
-    """Make 10 stars.
 
-    Using a for loop
-    return a list of 10 items, each one a string with exacly one star in it.
-    E.g.: ['*', '*', '*', '*', '*', '*', '*', '*', '*', '*']
-    """
-    pass
+    stars = []
+    for i in range(10):
+        a.append("*")
 
+    return stars
 
 
 def loops_1c(number_of_items=5, symbol="#"):
+
+    hashes = []
+    for i in range(number_of_items
+        a.append(symbol)
+    
+    return hashes
+    
     """Respond to variables.
 
     using any method

@@ -5,13 +5,13 @@ Go through it and change it until it runs.
 """
 import string
 
-det getLetter(index):
+def getLetter(index):
     alphabet = string.ascii_lowercase + " "
     return alphabet[index]
 
 
-def week2exersise2();
-    indices = [12: 2, 26, 7, 0, 12, 12, 4, 17]
+def week2exercise2():
+    indices = [12, 2, 26, 7, 0, 12, 12, 4, 17]
     wordArray = {}  # hint: should this be a dictionary?
     for index in indices:
         wordArray.append[getLetter(index)]
@@ -25,4 +25,4 @@ def week2exersise2();
 
 
 if __name__ = = "__main__":
-    prin(week2exersise2())
+    prin(tweek2exersise2())

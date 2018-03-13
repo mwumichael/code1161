@@ -3,56 +3,36 @@
 
 
 def add_5(a_number):
-    """Return a number that is 5 bigger than number given.
 
-    This isn't a trick!
-    First thing to do is to remove the pass. That's just tellign python that
-    the empty block is intentional - it's python's "this page is intentionally
-    left blank"
-    Then you need to:
-        return a_number plus five
-    except expressed in python, not english
-    """
-    pass
+    x1 = (a_number+5)
+    return float(x1)
 
 
 def adder(a_number, another_number):
-    """Add two numbers.
 
-    Same as above, but with any two numbers.
-    """
-    pass
+    x2 = (a_number + another_number)
+    return float(x2)
+
+    
+
 
 
 def shout(a_string):
-    """Return a string in uppercase.
-
-    look up the docs for string methods. Either in the official docs, here:
-        https://docs.python.org/2/library/string.html
-    or in any of the million places that google will give you.
-    "python make a string uppercase" is a good starting search query.
-    """
-    pass
+    loud = (a_string.upper())
+    return str(loud)
 
 
 def really_shout(a_string):
-    """Return a string in uppercase, with an exclamation mark on the end.
-
-    In the spirit of being DRY (don't repeat yourself) reuse the shout function
-    from above.
-    Look up how to 'concatinate' strings to make this happen.
-    """
-    pass
+    really_loud = (shout(a_string)+"!")
+    return really_loud   
 
 def shout_with_a_number(a_string, a_number):
-    """Return a string in uppercase with a space and a_number concatentated.
-    E.g.
-    >>> shout_with_a_number('hello', 42)
-    'HELLO 42'
 
-    HINT: Lookup how to cast a_number to a string or lookup how to use f-strings in python
-    """
-    pass
+    x3 = (shout(a_string))
+    x4 = str(a_number)
+    x5 = x3 + " " + x4
+
+    return str(x5)
 
 
 def minitest(f, args, expected):

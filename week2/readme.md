@@ -1,1 +1,1 @@
-TODO: Reflect on what you learned this week and what is still unclear.
+This week I worked on implementing functions through writing custom ones and learning how to call functions within functions. I learned how to convert various data types. Learned how to read functions in more detail and decipher what its objective is without running the function.
